@@ -1,15 +1,38 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    max-width: 480px;
+    width: 480px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #eff0f3;
+    align-items: center;
+    gap: 24px;
+}
+
+button{
+    text-align: center;
+    background-color: #f0944f;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    flex:0 0 16px;
+    color: #eff0f3;
+    border: none;
 }
 
 .box {
-    border: 1px solid black;
+    border: 1px solid #f0944f;
     margin: 0px;
     box-sizing: border-box;
 }
 
-.colored-box {
-    background-color: red;
+h1{
+    font-weight: bolder;
+    color: #f0944f;
+    font-size: 48px;
+    margin: 0px;
 }
