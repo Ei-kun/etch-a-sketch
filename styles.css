@@ -1,0 +1,15 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 480px;
+}
+
+.box {
+    border: 1px solid black;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.colored-box {
+    background-color: red;
+}
